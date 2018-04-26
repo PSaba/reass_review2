@@ -1,0 +1,42 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#login-input-label-container,
+#join-input-label-container {
+  height: 25px;
+  overflow: hidden;
+}
+
+.login-input-label,
+.join-input-label {
+  display: block;
+}
+
+#login-input-labels,
+#join-input-labels {
+  transition: 0.3s all;
+}
+
+#login-input-labels.to-password,
+#join-input-labels.to-name {
+  margin-top: -27px;
+}
+
+#join-input-labels.to-password {
+  margin-top: -53px;
+}
+
+
+.form-row {
+  display: block;
+}
+
+.hide{
+  display: none;
+}

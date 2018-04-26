@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "tempuser",
+    "password": "temppass",
+    "database": "review1",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "tempuser",
+    "password": "temppass",
+    "database": "review1_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "logging": false
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "logging": false
+  }
+}
